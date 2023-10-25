@@ -1,27 +1,44 @@
 body {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;   
     color: #ffffff;
+    background: url('../images/pexels-céline-chamiotponcet-2889792.jpg');
+    background-position: center;
+    background-size: cover;
+    background-position-x: right;
+}
+
+h2 {
+    font-size: 4.5em;
+    margin-bottom: 30px;    
+    background: -webkit-linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -webkit-text-stroke: #000000;
+    -webkit-text-stroke-width: thin;   
 }
 
 .container {
      width: 700px;     
      border-radius: 20px;
+     border: 2px solid black;
      padding: 20px 40px;
-     background-color: #ffe4c4
+     background: url('../images/cow\ pattern.jpg');
+     background-size: cover;     
 }
 
 header {
     display: flex;
-    color: #a0a0a0;
+    background: -webkit-linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: #000000;
+    -webkit-text-stroke-width: medium;   
     align-items: center;
     justify-content: space-between;    
-}
-
-header h2 {
-    font-size: 1.5rem;
 }
 
 header .column {
@@ -32,7 +49,7 @@ header .column {
 .column span {
     font-weight: 600;
     margin-right: 20px;
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 
 .keys-check input {
@@ -100,7 +117,7 @@ header .column {
     bottom: 20px;
     width: 100%;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
 }
 
 .piano-keys .white.active {
@@ -115,8 +132,4 @@ header .column {
 
 .piano-keys .key.hide span {
     display: none;
-}
-
-span {
-    font-size: 1.5em;
 }
