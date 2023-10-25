@@ -116,3 +116,7 @@ header .column {
 .piano-keys .key.hide span {
     display: none;
 }
+
+span {
+    font-size: 1.5em;
+}
